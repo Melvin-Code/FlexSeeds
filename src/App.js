@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Nutrition from "./components/Nutrition";
 import { Switch, Link, Route } from "react-router-dom";
 import axios from "axios";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import AllFoods from "./components/AllFoods";
 
 function App() {
