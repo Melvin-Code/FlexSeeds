@@ -6,7 +6,6 @@ import "./App.css";
 import About from "./components/About";
 import Benefits from "./components/Benefits";
 import Footer from "./components/Footer";
-import Index from "./components/Index";
 import Navbar from "./components/Navbar";
 import Nutrition from "./components/Nutrition";
 
