@@ -12,7 +12,7 @@ class AllFoods extends Component {
     
   render() {
     return (
-    <div>
+    <div className='flex'>
         <h1 className='title' >Super Foods</h1>
       <div className='noteCard'>
          <div><img className='bigAvo' src='/images/thought-catalog-EMX1eJ1BcgU-unsplash.jpg' /></div>
