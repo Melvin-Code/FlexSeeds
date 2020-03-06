@@ -41,3 +41,19 @@ html{
   max-width: 25rem;
   padding: 0px;
 }
+.title {
+  font-size: 85px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .15em;
+  text-shadow: 
+    1px -1px 0 #767676, 
+    -2px 4px 1px #767474, 
+    -4px 8px 1px #7B7A7A, 
+    -6px 12px 1px #828181, 
+    -8px 16px 1px #8B8A89, 
+    -10px 20px 1px #949392;
+    @include transition(0.4s);
+}
