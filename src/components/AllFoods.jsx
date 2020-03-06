@@ -4,7 +4,7 @@ class AllFoods extends Component {
     render() {
         return (
             <div>
-                
+                all foods
             </div>
         );
     }
