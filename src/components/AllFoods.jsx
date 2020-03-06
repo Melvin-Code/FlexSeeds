@@ -8,11 +8,12 @@ class AllFoods extends Component {
         salmon,
         sweetPotato,
       }
+      
     
   render() {
     return (
       <div className='noteCard'>
-         <div><img clasName='bigAvo' src='/images/thought-catalog-EMX1eJ1BcgU-unsplash.jpg' /></div>
+         <div><img className='bigAvo' src='/images/thought-catalog-EMX1eJ1BcgU-unsplash.jpg' /></div>
         <h3> {this.state.Avocato[0].Food_Name.toUpperCase()}</h3>
         <h4> Description: </h4>
         <p> {this.state.Avocato[0].Description} </p>

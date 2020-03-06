@@ -15,12 +15,16 @@ code {
   margin: 0;
   padding: 0;
 }
+html{
+  font-size: 62.5%;
+}
 .noteCard{
   margin: 1rem 3rem;
   background-color: whitesmoke;
   color: #d5a040;
   display: inline-block;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem ;
+  display: flex;
   
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
   position: relative;
@@ -29,8 +33,11 @@ code {
   width: fit-content;
   height: fit-content;
   font-size: small;
+  flex-direction: column;
+    align-items: center;
 }
+
 .bigAvo{
-  width: 30px;
-  height: 30px;
+  max-width: 25rem;
+  padding: 0px;
 }
