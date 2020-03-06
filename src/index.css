@@ -21,7 +21,7 @@ html{
 .noteCard{
   margin: 1rem 3rem;
   background-color: whitesmoke;
-  color: #d5a040;
+  color: green;
   display: inline-block;
   padding: 0.5rem ;
   display: flex;
@@ -62,4 +62,28 @@ html{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.navbar{
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-around;
+  align-items: center;
+  height: 7vh;
+  box-shadow: -6px -4px 13px 0px black;
+  position: fixed;
+  z-index: 30;
+  width: 100%;
+}
+.navbar > a{
+  text-decoration: none;
+  color: black;
+  font-size: 2.2rem;
+  transition: all .5s;
+  width: 3.2rem;
+}
+
+.navbar > a:hover{
+  font-size: 2.4rem;
+  color: green;
+  
 }
