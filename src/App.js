@@ -9,12 +9,14 @@ import Footer from "./components/Footer";
 import Nutrition from "./components/Nutrition";
 import { Switch, Link, Route } from "react-router-dom";
 import axios from "axios";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import AllFoods from "./components/AllFoods";
 
-function App() {
-  return (
-    <div className="App">
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
       <NavBar />
       <h1>Flaxseeds</h1>
       <Switch>
@@ -37,7 +39,10 @@ function App() {
       </Switch>
       <Footer />
     </div>
-  );
+    );
+  }
 }
 
 export default App;
+
+
